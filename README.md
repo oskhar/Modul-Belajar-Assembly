@@ -5,6 +5,7 @@ Repositori ini berisi proyek tugas kuliah yang fokus pada pemrograman dalam baha
 ## Landasan Teori
 
 ![Register Image](/img/registers.png)
+(Gambar didapatkan dari [video ini](https://www.youtube.com/watch?v=Dh7GQ_joeE4).)
 
 Dalam arsitektur ini, register memiliki ukuran 64 bit, ini berarti bahwa setiap register mampu menyimpan 64 bit atau 8 byte data. Ukuran yang besar ini memungkinkan prosesor untuk bekerja dengan bilangan yang sangat besar atau presisi tinggi. Namun, setiap register juga dapat dibagi menjadi bagian yang lebih kecil.
 
