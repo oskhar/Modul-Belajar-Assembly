@@ -1,16 +1,12 @@
 section .data
-	text db "Hello, World", 10
+	; text db "Masukan pesan anda"
 
 section .text
 	global _start
 
 _start:
-	mov rax, 1
-	mov rdi, 1
-	mov rsi, text
-	mov rdx, 14
-	syscall
+	mov eax, 1
+	mov ebx, 10
+	int 0x80
 
-	mov rax, 60
-	mov rdi, 0
-	syscall
+section .bss
