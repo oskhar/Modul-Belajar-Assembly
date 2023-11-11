@@ -11,7 +11,7 @@ _start:
 
 looping:
     ; Cek jika ecx lebih besar atau sama dengan panjang pesan
-    cmp ecx, 1000
+    cmp ecx, 10
     jge exit
 
     ; Push karakter 's' ke stack
@@ -29,7 +29,7 @@ exit:
     mov ecx, esp
     mov ebx, 1
     mov eax, 4
-    mov edx, 31
+    mov edx, 12
     int 0x80
 
     ; Keluar program
